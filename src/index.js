@@ -38,7 +38,7 @@ setInterval(function(){
 
 
 let differenceTime = function(){
-    let birthday = moment("2022-11-19");
+    let birthday = moment("2024-11-19");
     let currentTime = moment();
     let diffTime = moment.duration(birthday.diff(currentTime));
     console.dir(diffTime); // gives you the diff in miliseconds
