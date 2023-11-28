@@ -1,4 +1,4 @@
-import './styles/main.scss'; // Don't delete :)
+import './src/styles/main.scss'; // Don't delete :)
 import moment from 'moment';
 // All of your javascript should go here :)
 

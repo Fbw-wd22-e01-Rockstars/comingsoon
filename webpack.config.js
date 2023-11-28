@@ -9,9 +9,10 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const isProduction = process.env.NODE_ENV == "production";
 
 const config = {
-  entry: "./src/index.js",
+  entry: "./index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
   },
   devServer: {
     open: true,
@@ -20,7 +21,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "src/index.html",  // added manually -  index.html in the root? eww
+      template: "./index.html",  // added manually -  index.html in the root? eww
     }),
     new CopyWebpackPlugin({
       patterns: [{from:'src/images',to:'images'}]
