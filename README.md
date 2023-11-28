@@ -1,6 +1,6 @@
-# Coming Soon Page
+# Coming Soon Page 🎉🎉🎉
 
- The page shows a count down of days, hours, minutes, and seconds.
+ The page shows a count down of days, hours, minutes, and seconds until my Birthday 19-11-2024!🎉
 
 - To run the app, try `$ npm run start`
 
